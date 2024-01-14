@@ -1,0 +1,31 @@
+div {
+    background-color: #ed9eae9b;
+    padding: 15px;
+}
+
+ol{
+    padding: 0;
+    list-style: none;
+    counter-reset: item;
+}
+
+li::before {
+    content: counter(item) ".";
+    color: white;
+  }
+
+li{
+    background-color: #c66377;
+    font-family: Arial; 
+    color: white; 
+    margin-bottom: 10px;
+    padding: 10px 0 10px 15px;
+    counter-increment: item;
+}
+span{
+    margin-left: 15px;
+    padding: 10px;
+    font-family: Arial;
+    color: white;
+    background-color: #9d3449;
+}
