@@ -1,0 +1,13 @@
+div {
+  width: 70%;
+  background-color: rgba(223, 227, 235, 0.9019607843);
+  padding: 0 0 30px 20px;
+}
+
+dt {
+  font-style: italic;
+}
+
+.example {
+  color: #969696;
+}/*# sourceMappingURL=style.css.map */
